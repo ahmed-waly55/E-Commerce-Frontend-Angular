@@ -16,7 +16,7 @@ src/
     └── shared/
 ```
 
-## package install
+## packages install
 
 ```
 npm install flowbite

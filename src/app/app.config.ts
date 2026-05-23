@@ -8,7 +8,6 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
-    provideZoneChangeDetection({ eventCoalescing: true }), // Enable event coalescing for better performance
     provideRouter(routes,
       withViewTransitions(), // Enable view transitions for smoother navigation
       withInMemoryScrolling({scrollPositionRestoration: 'top'})), // Restore scroll position to top on navigation
